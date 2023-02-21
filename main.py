@@ -32,11 +32,3 @@ elif choice == 'N':
 
 else:
     print('Please input valid entry')
-
-
-
-
-
-
-
-
