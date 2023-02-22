@@ -13,10 +13,9 @@ if choice == 'Y':
                 print('This sentence/word uses \'y\' as it\'s vowel')
                 break
     else:
-        point = str(point)
-        print ('\n' + point)
-        
-        
+        print('\n', point)
+
+
 elif choice == 'N':
     x = input('Please enter your sentence: ').lower()
     for stri in vowels:
@@ -27,8 +26,7 @@ elif choice == 'N':
             if char == 'y':
                 print('This sentence/word uses \'y\' as it\'s vowel')
     else:
-        point = str(point)
-        print ('\n' + point)
+        print('\n', point)
 
 else:
     print('Please input valid entry')
